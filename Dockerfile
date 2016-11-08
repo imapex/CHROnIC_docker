@@ -5,4 +5,4 @@ RUN apt-get update && apt-get -y install \
   python \
   python-pip
   
-RUN pip install --upgrade
+RUN pip install --upgrade pip
