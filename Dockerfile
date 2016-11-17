@@ -8,3 +8,4 @@ RUN apt-get update && apt-get -y install \
   python3-pip
   
 RUN pip install --upgrade pip
+RUN pip3 install --upgrade pip
